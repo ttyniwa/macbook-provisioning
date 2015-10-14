@@ -10,40 +10,42 @@
       - caskroom/versions
       - sanemat/font
     homebrew_packages:
-      - { name: python }
       - { name: ansible }
-      - { name: git }
-      - { name: zsh, install_options: disable-etcdir }
-      - { name: wget }
       - { name: curl }
-      - { name: tree }
+      - { name: git }
+      - { name: jq }
       - { name: lv }
       - { name: nkf }
-      - { name: jq }
+      - { name: python }
       - { name: rbenv }
       - { name: ruby-build }
       - { name: tmux }
+      - { name: tree }
+      - { name: wget }
+      - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
       - { name: appcleaner }
+      - { name: atom }
       - { name: bathyscaphe }
-      - { name: kindle }
-      - { name: day-o }
+      - { name: bettertouchtool }
       - { name: cheatsheet }
-      - { name: flux }
+      - { name: dash }
+      - { name: day-o }
       - { name: dropbox }
+      - { name: firefox-ja }
+      - { name: flux }
+      - { name: gitx }
+      - { name: graphviz }
+      - { name: google-japanese-ime }
+      - { name: gyazo }
+      - { name: hyperswitch }
+      - { name: karabiner }
+      - { name: kindle }
+      - { name: macvim-kaoriya }
       - { name: pandoc }
       - { name: skype }
-      - { name: macvim-kaoriya }
-      - { name: firefox-ja }
-      - { name: google-japanese-ime }
       - { name: sourcetree }
-      - { name: gitx }
-      - { name: karabiner }
-      - { name: bettertouchtool }
-      - { name: hyperswitch }
       - { name: spectacle }
-      - { name: dash }
-      - { name: atom }
       - { name: virtualbox }
 
   tasks:
