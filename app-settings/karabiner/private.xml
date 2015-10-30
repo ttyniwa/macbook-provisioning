@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<root>
+  <appdef>
+    <appname>Terminal</appname>
+    <equal>com.apple.Terminal</equal>
+  </appdef>
+  <appdef>
+    <appname>MacVim</appname>
+    <equal>org.vim.MacVim</equal>
+  </appdef>
+  <appdef>
+    <appname>eclipse</appname>
+    <equal>org.eclipse.platform.ide</equal>
+  </appdef>
+  <list>
+    <item>
+      <name>Local Hacks</name>
+      <list>
+        <item>
+          <name>EISUU Key</name>
+          <list>
+            <item>
+              <name>Escape only to Escape+EISUU(vim keybind apps only)</name>
+              <identifier>private.vim_keybind_apps_shift_esc_to_escape_eisuu</identifier>
+              <autogen>
+                --KeyToKey--
+                KeyCode::JIS_EISUU, ModifierFlag::SHIFT_L,
+                KeyCode::ESCAPE, KeyCode::JIS_EISUU
+              </autogen>
+            </item>
+          </list>
+        </item>
+        <item>
+          <name>Command_L Key</name>
+          <list>
+            <item>
+              <name>Command_L+Space to EISUU and Command_L+Space</name>
+              <identifier>private.command_l_and_space_to_eisuu_and_command_l_and_space</identifier>
+              <autogen>
+                --KeyToKey--
+                KeyCode::SPACE, ModifierFlag::COMMAND_L,
+                KeyCode::JIS_EISUU, KeyCode::SPACE, ModifierFlag::COMMAND_L
+              </autogen>
+            </item>
+          </list>
+        </item>
+        <item>
+          <name>Control_L Key</name>
+          <list>
+            <item>
+              <name>Control_L+Space to EISUU and Control_L+Space</name>
+              <identifier>private.control_l_and_space_to_eisuu_and_control_l_and_space</identifier>
+              <autogen>
+                --KeyToKey--
+                KeyCode::SPACE, ModifierFlag::CONTROL_L,
+                KeyCode::JIS_EISUU, KeyCode::SPACE, ModifierFlag::CONTROL_L
+              </autogen>
+            </item>
+          </list>
+        </item>
+      </list>
+    </item>
+  </list>
+</root>
