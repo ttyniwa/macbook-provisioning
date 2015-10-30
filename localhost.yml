@@ -23,11 +23,14 @@
       - { name: wget }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
+      - { name: 1password }
       - { name: appcleaner }
       - { name: atom }
+      - { name: steam }
       - { name: bathyscaphe }
       - { name: bettertouchtool }
       - { name: cheatsheet }
+      - { name: clipmenu }
       - { name: dash }
       - { name: day-o }
       - { name: dropbox }
@@ -39,7 +42,6 @@
       - { name: gyazo }
       - { name: hyperswitch }
       - { name: karabiner }
-      - { name: kindle }
       - { name: macvim-kaoriya }
       - { name: pandoc }
       - { name: skype }
